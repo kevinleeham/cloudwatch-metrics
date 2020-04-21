@@ -1,7 +1,7 @@
 {
-  "name": "cloudwatch-metrics",
+  "name": "cloudwatch-metrics-kevin",
   "version": "1.2.0",
-  "description": "A simple wrapper for simplifying using Cloudwatch metrics",
+  "description": "A simple wrapper for simplifying using Cloudwatch metrics. Forked from https://github.com/mixmaxhq/cloudwatch-metrics.git",
   "main": "index.js",
   "scripts": {
     "ci": "npm run lint && npm test",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mixmaxhq/cloudwatch-metrics.git"
+    "url": "git+https://github.com/kevinleeham/cloudwatch-metrics"
   },
   "keywords": [
     "aws",
@@ -19,10 +19,7 @@
   ],
   "author": "Trey Tacon <trey@mixmax.com> (https://mixmax.com)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mixmaxhq/cloudwatch-metrics/issues"
-  },
-  "homepage": "https://github.com/mixmaxhq/cloudwatch-metrics#readme",
+  "homepage": "https://github.com/kevinleeham/cloudwatch-metrics#readme",
   "dependencies": {
     "aws-sdk": "^2.412.0"
   },
