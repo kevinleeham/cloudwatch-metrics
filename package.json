@@ -24,14 +24,10 @@
     "aws-sdk": "^2.412.0"
   },
   "devDependencies": {
-    "eslint": ">=3",
-    "eslint-config-mixmax": "^0.6.0",
     "jasmine": "^2.5.2",
     "pre-commit": "^1.2.2",
     "rewire": "^2.5.2",
     "underscore": "^1.8.3"
   },
-  "pre-commit": [
-    "lint"
-  ]
+  "pre-commit": []
 }
